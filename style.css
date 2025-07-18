@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+  background-color: #121212;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  background-color: #0d0d0d;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #0ff;
+}
+header h1 {
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff;
+}
+nav a {
+  color: #0ff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.hero {
+  background: linear-gradient(90deg, #0ff 0%, #006666 100%);
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 20px #0ff;
+  margin: 20px;
+}
+.stream-embeds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+iframe {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #0ff;
+}
